@@ -14,13 +14,13 @@ yarn 最先用 workspaces 实现了 monorepo，而**npm 则要在 7.x 版本后�
 
 根目录的`package.json`配置
 
-```json
+```js
 {
   "name": "monorepo-demo",
   "workspaces": [
     "package1" // "packages/*" 以目录为单位
   ],
- 	...
+  ...
 }
 ```
 
@@ -53,7 +53,7 @@ yarn 最先用 workspaces 实现了 monorepo，而**npm 则要在 7.x 版本后�
 
 如子目录 package.json 如下所示：
 
-```json
+```js
 // packages/package1/package.json
 {
   "name": "@demo/package1",
