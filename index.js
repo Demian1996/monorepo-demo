@@ -1,5 +1,4 @@
-const sayHi = require('@demo/package1');
-const sayYes = require('@demo/package2');
+const getHead = require('@demo/package1');
+const getBody = require('@demo/package2');
 
-sayHi();
-sayYes();
+console.log(getHead() + getBody());

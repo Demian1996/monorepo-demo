@@ -1,5 +1,5 @@
-function sayHi() {
-  console.log('hi');
+function getHead() {
+  return '我来组成头部';
 }
 
-module.exports = sayHi;
+module.exports = getHead;
